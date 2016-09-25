@@ -47,10 +47,15 @@ Server Code
 
 - Generates the random number between 1 and 10 using the below code
 
-```{r}
+
+```r
 number <- floor(runif(1,1,11))
 print(number)
-````
+```
+
+```
+[1] 7
+```
 - Takes the input number and validates against the generated number
 - Returns text status message to be displayed by the UI
 
